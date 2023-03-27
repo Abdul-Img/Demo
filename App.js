@@ -103,7 +103,9 @@ const App = () => {
         </Text>
       </View>
 
-      <View>
+      {/* uncomment below code to see line chart */}
+
+      {/* <View>
         <LineChart
           data={{
             labels: createdDates,
@@ -134,7 +136,7 @@ const App = () => {
           }}
           style={styles.lineChart}
         />
-      </View>
+      </View> */}
     </ScrollView>
   );
 };
